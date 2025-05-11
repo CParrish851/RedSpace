@@ -1,0 +1,43 @@
+<link rel="stylesheet" href="style.css" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Business</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My Business</h1>
+    <p>Helping you grow through smart solutions</p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We are a forward-thinking company providing top-notch services to help your business succeed.</p>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Consulting</li>
+        <li>Web Development</li>
+        <li>Marketing Strategies</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: info@mybusiness.com</p>
+      <p>Phone: (123) 456-7890</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Business. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+<script src="script.js"></script>
