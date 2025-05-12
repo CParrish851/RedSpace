@@ -1,32 +1,75 @@
+/* Clean and Professional Business Site Styles - Red Header Version */
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
-  background: #f9f9f9;
+  background-color: #f4f6f8;
   color: #333;
+  line-height: 1.6;
 }
 
 header {
-  background: #0073e6;
-  color: white;
-  padding: 2rem;
+  background-color: #b30000; /* Red header */
+  color: #fff;
+  padding: 40px 20px;
   text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
 }
 
 main {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
+  max-width: 960px;
+  margin: 30px auto;
+  padding: 0 20px;
 }
 
 section {
-  margin-bottom: 2rem;
+  margin-bottom: 40px;
+}
+
+section h2 {
+  color: #b30000; /* Match header color */
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+ul {
+  padding-left: 20px;
 }
 
 footer {
-  background: #222;
-  color: white;
+  background-color: #222;
+  color: #aaa;
   text-align: center;
-  padding: 1rem;
+  padding: 20px;
+  font-size: 0.9rem;
+  margin-top: 60px;
+}
+
+a {
+  color: #b30000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  main {
+    padding: 0 10px;
+  }
 }
