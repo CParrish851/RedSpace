@@ -1,75 +1,60 @@
-/* Clean and Professional Business Site Styles - Red Header Version */
-
+/* General Styles */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
-  padding: 0;
-  background-color: #f4f6f8;
-  color: #333;
-  line-height: 1.6;
+  background-color: #111;
+  color: #fff;
 }
 
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
 header {
-  background-color: #b30000; /* Red header */
-  color: #fff;
-  padding: 40px 20px;
-  text-align: center;
+  background-color: #000;
+  border-bottom: 4px solid red;
+  padding: 20px 0;
 }
 
 header h1 {
   margin: 0;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  color: red;
 }
 
-header p {
-  font-size: 1.2rem;
+nav {
+  margin-top: 10px;
 }
 
-main {
-  max-width: 960px;
-  margin: 30px auto;
-  padding: 0 20px;
+nav a {
+  color: #fff;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
+nav a:hover {
+  color: red;
+}
+
+/* Sections */
 section {
   margin-bottom: 40px;
 }
 
-section h2 {
-  color: #b30000; /* Match header color */
-  border-bottom: 2px solid #ccc;
-  padding-bottom: 10px;
-  margin-bottom: 15px;
+h2 {
+  color: red;
 }
 
-ul {
-  padding-left: 20px;
-}
-
+/* Footer */
 footer {
-  background-color: #222;
-  color: #aaa;
+  background-color: #000;
   text-align: center;
-  padding: 20px;
+  padding: 15px 0;
   font-size: 0.9rem;
-  margin-top: 60px;
-}
-
-a {
-  color: #b30000;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-@media (max-width: 600px) {
-  header h1 {
-    font-size: 2rem;
-  }
-
-  main {
-    padding: 0 10px;
-  }
+  color: #aaa;
 }
