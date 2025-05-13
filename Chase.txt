@@ -1,37 +1,41 @@
-<link rel="stylesheet" href="style.css" />
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Business</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>My Business</h1>
-    <p>Helping you grow through smart solutions</p>
+    <div class="container">
+      <h1>My Business</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <main>
+  <main class="container">
     <section id="about">
       <h2>About Us</h2>
-      <p>We are a forward-thinking company providing top-notch services to help your business succeed.</p>
+      <p>We provide sleek and effective business solutions with a bold approach. Our mission is to empower clients with smart, innovative services.</p>
     </section>
 
     <section id="services">
       <h2>Our Services</h2>
       <ul>
         <li>Consulting</li>
-        <li>Web Development</li>
-        <li>Marketing Strategies</li>
+        <li>Strategy & Branding</li>
+        <li>Web Design</li>
       </ul>
     </section>
 
     <section id="contact">
-      <h2>Contact Us</h2>
-      <p>Email: info@mybusiness.com</p>
-      <p>Phone: (123) 456-7890</p>
+      <h2>Contact</h2>
+      <p>Email us at <a href="mailto:info@mybusiness.com">info@mybusiness.com</a></p>
     </section>
   </main>
 
@@ -40,4 +44,3 @@
   </footer>
 </body>
 </html>
-<script src="script.js"></script>
